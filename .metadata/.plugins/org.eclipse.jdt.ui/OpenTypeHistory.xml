@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=springrest/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springrest.springrest.services{CourseService.java[CourseService" modifiers="513" timestamp="1733638236783"/>
+    <typeInfo handle="=springrest/C:\/Users\/Shrutesh Reddy\/.m2\/repository\/org\/hibernate\/orm\/hibernate-core\/6.6.2.Final\/hibernate-core-6.6.2.Final.jar=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate.orm=/=/maven.artifactId=/hibernate-core=/=/maven.version=/6.6.2.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.hibernate.dialect(MySQLDialect.class[MySQLDialect" modifiers="33" timestamp="1733560750125"/>
+</typeInfoHistroy>

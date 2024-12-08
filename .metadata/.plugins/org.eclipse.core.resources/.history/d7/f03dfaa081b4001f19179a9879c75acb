@@ -1,0 +1,15 @@
+package com.springrest.springrest.entities;
+
+public class Courses {
+	private long id;
+	private String title;
+	private String description;
+	
+	public Courses(long id, String title, String description) {
+		super();
+		this.id = id;
+		this.title = title;
+		this.description = description;
+	}
+	
+}

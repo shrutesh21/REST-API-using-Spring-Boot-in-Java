@@ -1,0 +1,43 @@
+package com.springrest.springrest.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.springrest.springrest.controller.PathVariable;
+import com.springrest.springrest.entities.Courses;
+
+@Service // this is written to let know the spring framework that this is providing implementations 
+public class CourseServiceImpl implements CourseService {
+	
+	List<Courses> list;
+	
+	public CourseServiceImpl()
+	{
+		list = new ArrayList<>();
+		list.add(new Courses(1, "Java Core Course", "Java Backend Project"));
+		list.add(new Courses(2, "Spring Boot", "API"));
+	}
+	@Override
+	public List<Courses> getCourses() {
+		// TODO Auto-generated method stub
+		return list;
+	}
+	
+	public Courses getCourse(Long courseId)
+	{
+		Courses c=null;
+		
+		for(Courses course:list)
+		{
+			if(course.getId()==courseId)
+			{
+				c=course;
+				break;
+			}
+		}
+		return c;
+	}
+
+}
